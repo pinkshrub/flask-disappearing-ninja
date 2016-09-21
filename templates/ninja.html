@@ -14,7 +14,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-
+            <!-- this is a good job! nice implementation. there are options to refactor this into ~5 lines, but
+            you will have an easier time moving it to the back end and working with the urls there. --->
             {% if show == True %}
                 <img src="{{ url_for('static', filename='img/donatello.jpg') }}">
                 <img src="{{ url_for('static', filename='img/leonardo.jpg') }}">
